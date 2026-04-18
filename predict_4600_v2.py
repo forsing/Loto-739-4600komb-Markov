@@ -24,7 +24,7 @@ K_PICK = 7
 # Broj najbližih parova redova u pravilu 3 (kNN → težinski glas nad sledećim redom).
 KNN_PAIR_K: int = 20
 
-DEFAULT_4600_CSV = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+DEFAULT_4600_CSV = Path("data/loto7hh_4600_k31.csv")
 
 # ---------------------------------------------------------------------------
 # Leksikografski indeks 0 .. C(39,7)-1
@@ -403,5 +403,5 @@ pravilo: pravilo 2: vertikalni lanac (Num_k | Num_1…Num_{k-1}, bez Markov/kNN)
 
 Predlog sledećeg izvlačenja 
 (naredni red u nizu, posle zadnjeg iz CSV): 
-(10, 11, 13, 20, 27, 28, 38)
+(10, x, 13, y, 27, z, 38)
 """
