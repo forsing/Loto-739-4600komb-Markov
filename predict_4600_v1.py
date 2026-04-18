@@ -23,7 +23,7 @@ K_PICK = 7
 # Koliko najbližih istorijskih „momentum“ parova koristiti u pravilu 3 (leks-rang analogija).
 RANK_STEP_ANALOGY_K: int = 9
 
-DEFAULT_4600_CSV = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+DEFAULT_4600_CSV = Path("/data/loto7hh_4600_k31.csv")
 
 # ---------------------------------------------------------------------------
 # Leksikografski indeks 0 .. C(39,7)-1
@@ -369,5 +369,5 @@ pravilo: pravilo 2: vertikalni lanac (Num_k | Num_1…Num_{k-1}, bez Markov/kNN)
 
 Predlog sledećeg izvlačenja 
 (naredni red u nizu, posle zadnjeg iz CSV): 
-(2, 6, 11, 25, 28, 29, 37)
+(2, x, 11, y, 28, z, 37)
 """
